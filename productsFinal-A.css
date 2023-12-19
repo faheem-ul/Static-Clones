@@ -1,0 +1,153 @@
+body {
+    margin: 0px
+}
+
+.main {
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+
+.sidebar {
+
+    background-color:aliceblue;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 0;
+    height: 100%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: lightgray;
+    /* padding: 55px; */
+
+}
+
+.sidebarcross {
+    color: dimgray;
+    font-size: xxx-large;
+}
+
+.sidebarHeading {
+    text-align: center;
+    font-family: math;
+    font-size: 40px;
+}
+
+.sidebarButton {
+    
+    padding: 5px;
+    width: 200px;
+    FONT-SIZE: medium;
+    margin-left: 120px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+} 
+
+.header {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    justify-content: space-between;
+}
+
+.navtags a{
+    font-weight: 600;
+    font-size: medium;
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    
+}
+
+.main-heading {
+    font-family:cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+
+#middle{
+
+    margin-top: -60px;
+    margin-right: 200px;
+
+}
+
+.right-icon{
+    font-size: x-large;
+    color: black;
+}
+
+.sec-2 {
+    background-color: gray;
+    margin-top: -55px;
+    margin-bottom: 80px;
+}
+
+.sec2-mainHeading {
+    font-size: 40px;
+    padding: 54px;
+}
+
+.aside{
+    margin-left: -1135px;
+    margin-top: 20px;
+    position: fixed;
+}
+.asideForm input{
+
+    /* margin-left: 50px; */
+    background-color: lightgray;
+    padding: 7px;
+    border: none;
+
+}
+
+
+
+.sec2-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 280px;
+    margin-top: -7px;
+}
+.image {
+    width: 360px;
+    height: 250px;
+}
+
+.image-content{
+    font-size: medium;
+    text-align: center;
+}
+
+.maindivflex {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* grid-area: 10px; */
+}
+
+.imageicons {
+    position: relative;
+    top: 175px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#imagehovericon {
+    padding: 10px;
+    font-size: x-large;
+    background-color: goldenrod;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.image-container:hover .imageicons{
+
+    visibility: visible;
+}

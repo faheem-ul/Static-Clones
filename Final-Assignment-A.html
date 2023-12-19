@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final-Assignment-A</title>
+    <link rel="stylesheet" href="Final-Assignment-A.css">
+    <script src="https://kit.fontawesome.com/c8fb0dc0b1.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <div class="sidebar" id="iconClickSidebar">
+        <a href="" class="sidebarcross" onclick="SideBarclose()" >&#10006</a>
+        <h2 class="sidebarHeading" id="sidebar-UpHeading">Your Bag</h2> 
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2 class="sidebarHeading" id="sidebar-downHeading">Total Price = $0.00</h2>
+        <button class="sidebarButton">Checkout</button>
+    </div>
+
+    <section class="sec-1">
+        <article class="main">
+        
+            <div class="header">
+                <div class="navtags">
+                    <a href="Final-Assignment-A.html">Home</a>
+                    <a href="productsFinal-A.html">Products</a>
+                    <a href="aboutFinal-A.html">About</a>
+                </div>
+
+                <div class="main-heading" id="middle">
+                   <h1>Comfy</h1>
+                </div>
+
+                <div class="right-icon">
+                   <i class="fa-solid fa-cart-shopping" onclick="SideBarOpen()"></i>
+                 </div>
+            </div>
+ 
+            <div>
+
+                <h2 class="main-heading" id="rest">Rest, Relax, Unwind</h2>
+            
+                <h1 class="embrace"> Embrace your choices - we do</h1>
+            
+            </div>
+
+            <button class="sec1-btn">SHOW NOW</button>
+        </article>
+
+    </section>
+
+    <section class="sec-2">
+        <article class="main">
+
+            <div class="heading-flex">
+                <div class="sec2-heading" id="slash">
+                   <h2>/</h2>
+                </div>
+                 <div class="sec2-heading" id="sec2-mainHeading">
+                     <h2>Featured</h2>
+                </div>
+            </div>
+
+           
+            <div class="flex2-images">
+
+                <div class="sec2-div1">
+                    
+                    <div class="image-container">
+    
+                        <div class="imageicons">
+                           <i class="fa-solid fa-magnifying-glass" id="imagehovericon"></i>
+                           <i class="fa-solid fa-cart-shopping" id="imagehovericon"></i>
+                      </div>
+
+                         <img src="product-4.jpeg" alt="Utopia Sofa" class="image" id="UtopiaSofa">
+                         
+                    </div>
+                   <p class="image-content">High Back Bench</p>
+                   <p class="image-content">Product company: Ikeya</p>
+                   <h5 class="image-content" id="price">$4.99</h5>
+
+                </div>
+
+                <div class="sec2-div2">
+
+                       <div class="image-container">
+    
+                           <div class="imageicons">
+                              <i class="fa-solid fa-magnifying-glass" id="imagehovericon"></i>
+                              <i class="fa-solid fa-cart-shopping" id="imagehovericon"></i>
+                         </div>
+
+                            <img src="product-9.jpeg" alt="Utopia Sofa" class="image" id="UtopiaSofa">
+
+                        </div>
+                    <p class="image-content">Utopia Sofa<p>
+                    <p class="image-content">Product company: Ikeya</p>
+                    <h5 class="image-content" id="price">$4.99</h5>
+                </div>
+
+                <div class="sec2-div3">
+
+                    <div class="image-container">
+    
+                        <div class="imageicons">
+                           <i class="fa-solid fa-magnifying-glass" id="imagehovericon"></i>
+                           <i class="fa-solid fa-cart-shopping" id="imagehovericon"></i>
+                      </div>
+
+                         <img src="product-5.jpeg" alt="Utopia Sofa" class="image" id="UtopiaSofa">
+                         
+                    </div>
+                    <p class="image-content">Entertainment Center<p>
+                    <p class="image-content">Product company: Ikeya</p>
+                    <h5 class="image-content" id="price">$4.99</h5>
+                 </div>
+
+            </div>
+
+            <button class="sec2-btn">ALL PRODUCTS</button>
+
+        </article>
+    </section>
+
+
+    <script>
+        
+        function SideBarOpen() {
+        document.getElementById("iconClickSidebar").style.width = "400px";     
+}
+
+function SideBarclose() {
+    document.getElementById("iconClickSidebar").style.width = "0"; 
+}
+    </script>
+    
+</body>
+</html>

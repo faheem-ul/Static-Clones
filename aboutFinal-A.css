@@ -1,0 +1,119 @@
+body {
+    margin: 0px
+}
+
+.main {
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+
+.sidebar {
+
+    background-color:aliceblue;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 0;
+    height: 100%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: lightgray;
+    /* padding: 55px; */
+
+}
+
+.sidebarcross {
+    color: dimgray;
+    font-size: xxx-large;
+}
+
+.sidebarHeading {
+    text-align: center;
+    font-family: math;
+    font-size: 40px;
+}
+
+.sidebarButton {
+    
+    padding: 5px;
+    width: 200px;
+    FONT-SIZE: medium;
+    margin-left: 120px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+} 
+
+.header {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    justify-content: space-between;
+}
+
+.navtags a{
+    font-weight: 600;
+    font-size: medium;
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    
+}
+
+.main-heading {
+    font-family:cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+
+#middle{
+
+    margin-top: -60px;
+    margin-right: 200px;
+
+}
+
+.right-icon{
+    font-size: x-large;
+    color: black;
+}
+
+.sec-2 {
+    background-color: gray;
+    margin-top: -55px;
+    margin-bottom: 80px;
+}
+
+.sec2-mainHeading {
+    font-size: 40px;
+    padding: 54px;
+}
+
+#slash{
+    color:darkgoldenrod;
+
+}
+
+.sec2-heading {
+    color: cornflowerblue;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.heading-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.paragrapgh {
+    width: 700px;
+   text-align: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-left: 400px;
+}

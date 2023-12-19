@@ -1,0 +1,205 @@
+body {
+    margin: 0px
+}
+
+.main {
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+
+.sidebar {
+
+    background-color:aliceblue;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 0;
+    height: 100%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: lightgray;
+    /* padding: 55px; */
+
+}
+
+.sidebarcross {
+    color: dimgray;
+    font-size: xxx-large;
+}
+
+.sidebarHeading {
+    text-align: center;
+    font-family: math;
+    font-size: 40px;
+}
+
+.sidebarButton {
+    
+    padding: 5px;
+    width: 200px;
+    FONT-SIZE: medium;
+    margin-left: 120px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+} 
+
+.sec-1 {
+    background-image: url(main-bcg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    color: white;
+
+}
+
+.header {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    justify-content: space-between;
+}
+
+.navtags a{
+    font-weight: 600;
+    font-size: medium;
+    text-decoration: none;
+    padding: 30px;
+    color: white
+    
+}
+
+.main-heading {
+    font-family:cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+
+#middle{
+
+    margin-top: -60px;
+    margin-right: 200px;
+
+}
+
+.right-icon{
+    font-size: x-large;
+    color: white;
+}
+
+.rest {
+
+    font-family:cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+#rest {
+    font-size: 90px;
+    margin-left: 30px;
+    
+}
+.embrace {
+    font-size: 35px;
+    padding: 30px;
+    margin-top: -85px;
+    
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1-btn {
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#slash{
+    color:darkgoldenrod;
+
+}
+
+.sec2-heading {
+    color: cornflowerblue;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.heading-flex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.flex2-images {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+/* .imageiconsflex {
+    display: flex;
+    gap: 35px;
+} */
+
+
+
+.image-content{
+    font-size: medium;
+    text-align: center;
+}
+
+.imageicons {
+    position: relative;
+    top: 175px;
+    left: 130px;
+    visibility: hidden;
+}
+
+#imagehovericon {
+    padding: 10px;
+    font-size: x-large;
+    background-color: goldenrod;
+    border-radius: 100%;
+    margin: 10px;
+    
+    
+}
+
+
+
+#price{
+    font-weight: bolder;
+}
+
+.image-container:hover .imageicons{
+
+    visibility: visible;
+}
+
+.image {
+    
+    width: 400px;
+    height: 300px;
+    
+}
+
+.sec2-btn{
+    margin-left: 645px;
+    padding: 5px;
+    width: 160px;
+    background-color: goldenrod;
+    border-radius: 3px;
+    margin-bottom: 115px;
+}
